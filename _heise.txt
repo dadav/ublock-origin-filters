@@ -1,0 +1,19 @@
+! Hide heise category header
+
+www.heise.de##div#bottom-up
+
+! Hide sticky footer
+
+www.heise.de##a-sticky-footer
+
+! Hide ads
+
+www.heise.de##section:has-text(Eigenwerbung)
+www.heise.de##div > div > div:has-text(Eigenwerbung)
+www.heise.de##div > div > div:has-text(Anzeige)
+
+! Hide newsletter
+www.heise.de##div[data-component=NewsletterModule]
+
+! Hide socialmedia
+www.heise.de##div[data-component=SocialMediaModule]

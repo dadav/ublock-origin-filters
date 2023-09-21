@@ -1,0 +1,6 @@
+! Title: dadav uBlock filters
+! Description: Filters for uBlock, to remove distractions in multiple websites.
+! Homepage: https://github.com/dadav/ublock-origin-filters
+! License: https://github.com/dadav/ublock-origin-filters/blob/main/LICENSE
+
+!#include _heise.txt
